@@ -182,4 +182,4 @@ The URLs now point to the API Servce Management as entry point.
 - [Azure API Management Documentation](https://docs.microsoft.com/en-us/azure/api-management/)
 - [Azure API Management Terminology](https://docs.microsoft.com/en-us/azure/api-management/api-management-terminology)
 - [Azure API Management : Import API from openAPI](https://docs.microsoft.com/en-us/azure/api-management/import-api-from-oas)
-- [Create OpenAPI description from ABAP oData Service](https://blogs.sap.com/2019/07/09/how-to-create-an-openapi-rest-service-from-an-odata-v4-rest-service-with-sap-netweaver-abap/)
+<!-- - [Create OpenAPI description from ABAP oData Service](https://blogs.sap.com/2019/07/09/how-to-create-an-openapi-rest-service-from-an-odata-v4-rest-service-with-sap-netweaver-abap/) -->
