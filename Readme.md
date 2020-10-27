@@ -38,7 +38,7 @@ Now we need to register our oData service. There are different methods to create
 
 <img src="images/APIOptions.jpg" height=300>
 
-The relevant options for a oData service are either to create it manually or upload the definition via an openAPI specification. So we need to convert the `$metadata` xml file to an openAPI specification. Luckily the internet offers tooling to execute this conversion.
+The relevant options for an oData service are either to create it manually or upload the definition via an openAPI specification. So we need to convert the `$metadata` xml definition file to an openAPI specification. Luckily the internet offers tooling to execute this conversion.
 
 ### Download the oData $metadata
 The `$metadata` can be downloaded from \
@@ -47,7 +47,7 @@ The `$metadata` can be downloaded from \
 Save the result in a file, eg. `odata_sapnpl_description.xml`.
 
 ### Generate openAPI Description
-To generate the openAPI specification, I will be using a tool from OASIS. You can find this tool on GitHub at [oData openAPI](https://github.com/oasis-tcs/odata-openapi)). This tool is based on nodeJS.
+To generate the openAPI specification, I will be using a tool from OASIS. You can find this tool on GitHub at [oData openAPI](https://github.com/oasis-tcs/odata-openapi). This tool is based on nodeJS.
 
 To install the tool, you first start by cloning the github repository.
 
@@ -69,7 +69,7 @@ odata-openapi3 --host <hostname>:<port> .\odata_sapnpl_description.xml
 ```
 Use the `hostname`and `port`of your SAP oData service. 
 
-This command will generate the openAPI description in a JSON document. Eg. `EPM_REF_APPS_PROD_MAN_SRV.openapi3.json`
+This command will generate the openAPI description in JSON format. Eg. `EPM_REF_APPS_PROD_MAN_SRV.openapi3.json`
 
 >Note: The OASIS tool can only be used to convert ODATA 3.0 to openAPI. The SAP sample odata service is OData 2.0. I cheated a bit by changing this to oData 3.0 in the `$metadata` xml file.
 
