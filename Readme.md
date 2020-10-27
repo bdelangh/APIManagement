@@ -19,7 +19,7 @@ This oData service exposes different entity sets:
 - ...
 
 A list of products can be retrieved via `http://<hostname>:<portname>/sap/opu/odata/sap/EPM_REF_APPS_PROD_MAN_SRV/Products`.
-A specific product can be found using its productId, eg 'HT-1000' : ´http://<hostname>:<portname>/sap/opu/odata/sap/EPM_REF_APPS_PROD_MAN_SRV/Products('HT-1001')´.
+A specific product can be found using its productId, eg 'HT-1000' : `http://<hostname>:<portname>/sap/opu/odata/sap/EPM_REF_APPS_PROD_MAN_SRV/Products('HT-1001')`.
 
 The `$metadata` of the service can be found at `http://<hostname>:<portname>/sap/opu/odata/sap/EPM_REF_APPS_PROD_MAN_SRV/$metadata`.
 
