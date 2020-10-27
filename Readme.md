@@ -6,14 +6,20 @@
     Final Result : see example_docs\finalEPM_REF_APPS_PROD_MAN_SRV.openapi3.json
 -->
 
-This article explains how to expose a SAP oData Service via Azure API Management.
-The product oData service from the ABAP Developer Edition serves as example.
-The service can be accessed via `http://<hostname>:<portname>/sap/opu/odata/sap/EPM_REF_APPS_PROD_MAN_SRV`.\
-This oData service expose different entity sets:
+API Management (APIM) is a way to create consistent and modern API gateways for existing back-end services. In this case the backend API is an oData service exposed by a SAP system.
+
+API Management helps organizations publish APIs to external, partner, and internal developers to unlock the potential of their data and services. Businesses everywhere are looking to extend their operations as a digital platform, creating new channels, finding new customers and driving deeper engagement with existing ones. API Management provides the core competencies to ensure a successful API program through developer engagement, business insights, analytics, security, and protection. You can use Azure API Management to take any backend and launch a full-fledged API program based on it.
+
+In this article I will explain how to expose a SAP oData Service via Azure API Management. As SAP Backend implmenting the oData service I will make use of a 'ABAP Developer Edition' System. For more info see [AS ABAP 7.52 SP04, Developer Edition](https://blogs.sap.com/2019/10/01/as-abap-7.52-sp04-developer-edition-concise-installation-guide/). More specif, the sample oData Service is `product` oData Service.
+The service can be accessed via `http://<hostname>:<portname>/sap/opu/odata/sap/EPM_REF_APPS_PROD_MAN_SRV`.
+
+This oData service exposes different entity sets:
 - Products
 - Suppliers
 - ProductDrafts
 - ...
+
+The `$metadata` of the service can be found at `http://<hostname>:<portname>/sap/opu/odata/sap/EPM_REF_APPS_PROD_MAN_SRV/$metadata`.
 
 <!--
 This article is based on the following tutorials :
