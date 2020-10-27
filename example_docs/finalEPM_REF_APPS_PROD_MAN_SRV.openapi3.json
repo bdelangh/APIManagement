@@ -2,12 +2,12 @@
   "openapi": "3.0.2",
   "info": {
     "title": "Service for namespace EPM_REF_APPS_PROD_MAN_SRV",
-    "description": "This service is located at [https://137.117.134.161:8000/sap/opu/odata/sap/EPM_REF_APPS_PROD_MAN_SRV/](https://137.117.134.161:8000/sap/opu/odata/sap/EPM_REF_APPS_PROD_MAN_SRV/)",
+    "description": "This service is located at [https://vhcalnplci:8000/sap/opu/odata/sap/EPM_REF_APPS_PROD_MAN_SRV/](https://vhcalnplci:8000/sap/opu/odata/sap/EPM_REF_APPS_PROD_MAN_SRV/)",
     "version": ""
   },
   "servers": [
     {
-      "url": "https://137.117.134.161:8000/sap/opu/odata/sap/EPM_REF_APPS_PROD_MAN_SRV"
+      "url": "https://vhcalnplci:8000/sap/opu/odata/sap/EPM_REF_APPS_PROD_MAN_SRV"
     }
   ],
   "tags": [
